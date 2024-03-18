@@ -1,0 +1,162 @@
+/*1.calculate area of circle*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int r,area;
+	float pi=3.14;
+	cout<<"\nEnter number:";
+	cin>>r;
+	area=pi*r*r;
+	cout<<"\nArea of a circle:"<<area;
+	return 0;
+}
+---------------------------------------------------
+/*2.calculate circumference of circle*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float r,circumference;
+	float pi=3.14;
+	cout<<"\nEnter number:";
+	cin>>r;
+	circumference=2*pi*r;
+	cout<<"\nArea of a circle:"<<circumference;
+	return 0;
+}
+--------------------------------------------
+/*3.calculate area of rectangle*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int l,w,area;
+	cout<<"\nEnter length and width:";
+	cin>>l>>w;
+	area=l*w;
+	cout<<"\nArea of a rectangle:"<<area;
+	return 0;
+}
+---------------------------------------
+/*4.volume of sphere*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float r,volume;
+	float pi=3.14;
+	cout<<"\nEnter radius:";
+	cin>>r;
+	volume=(4/3)*pi*r*r*r;
+	cout<<"\nVolume of sphere:"<<volume;
+	return 0;
+}
+--------------------------------------------------
+/*5.surface area of sphere*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float r,surface_area;
+	float pi=3.14;
+	cout<<"\nEnter radius:";
+	cin>>r;
+	surface_area=4*pi*r*r;
+	cout<<"\n surface area of sphere:"<<surface_area;
+	return 0;
+}
+-----------------------------------------------------
+/*6. Area of Square*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float s,area;
+	cout<<"\nEnter side length of a square:";
+	cin>>s;
+	area=s*s;
+	cout<<"\n Area of Square:"<<area;
+	return 0;
+}
+------------------------------------
+/*7. Area of right angle triangle*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float b,h,area;
+	cout<<"\nEnter base and height:";
+	cin>>b>>h;
+	area=0.5*b*h;
+	cout<<"\n Area of right angle triangle:"<<area;
+	return 0;
+}
+-----------------------------------------
+/*8. Area of equilateral triangle*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float s,area;
+	cout<<"\nEnter side:";
+	cin>>s;
+	area=0.4325*s*s;
+	cout<<"\n Area of equilateral triangle:"<<area;
+	return 0;
+}
+---------------------------------
+/*9. Perimeter of  rectangle*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float l,w,perimeter;
+	cout<<"\nEnter length and width:";
+	cin>>l>>w;
+	perimeter=2*l+2*w;
+	cout<<"\n Perimeter of rectangle:"<<perimeter;
+	return 0;
+}
+-----------------------------------
+/*10. Area of triangle*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	float b,h,area;
+	cout<<"\nEnter base and height:";
+	cin>>b>>h;
+	area=0.5*b*h;
+	cout<<"\n Area of triangle:"<<area;
+	return 0;
+}
+--------------------------------
+/*11. Simple Interest*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int principal_amt,time;
+	float rate,simple_interest;
+	cout<<"\nEnter amount,rate and time period:";
+	cin>>principal_amt>>time>>rate;
+	simple_interest=principal_amt*rate*time;
+	cout<<"\n Simple Interest:"<<simple_interest;
+	return 0;
+}
+--------------------------------
+/*12. Compound Interest*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int principal_amt,time,com_frequency;
+	float rate,compound_interest;
+	cout<<"\nEnter amount,frequency,rate and time period:";
+	cin>>principal_amt>>com_frequency>>time>>rate;
+	compound_interest=principal_amt*1+rate/com_frequency*time;
+	cout<<"\n Compound Interest:"<<compound_interest;
+	return 0;
+}
+---------------------------------------------
